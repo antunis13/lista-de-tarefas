@@ -140,3 +140,16 @@ body {
     transform: rotateX(-90deg);
   }
 }
+@media (max-width: 645px){
+  .todolist{
+    width: 450px;
+  }
+}
+@media (max-width: 480px){
+  .todolist{
+    width: 300px;
+  }
+  .todolist footer input{
+    width: 85%;
+  }
+}
